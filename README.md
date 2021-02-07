@@ -35,6 +35,8 @@ There are 8 trackers available. `MedianFlow` works best for me as it provides go
 Points to Note:
 >You can run the code on any IDE but my VSCode was giving some issue so I recommend using PyCharm.
 
+>Try to keep the camera away from the light as reflection hampers the tracking.
+
 >Try to avoid unnecessary movement as the detection circle might displace from its desired position.
 
 >The program is not very efficient. It may take you time to get acquainted.
