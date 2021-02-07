@@ -31,7 +31,7 @@ You can always set some parameters according to your convenience:
 
 >Detection Circle(inner circle): `detection_circle_radius` in line number 66
 
-There are 8 trackers available. `MedianFlow` works best for me as it provides good accuracy as well as efficiency but you can try all of them which works best for you.  
+>There are 8 trackers available. `MedianFlow` works best for me as it provides good accuracy as well as efficiency but you can try all of them which works best for you.  
 ## Points to Note:
 >You can run the code on any IDE but my VSCode was giving some issue so I recommend using PyCharm.
 
