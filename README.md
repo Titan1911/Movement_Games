@@ -44,3 +44,7 @@ You can always set some parameters according to your convenience:
 >Try to avoid unnecessary movement as the detection circle might displace from its desired position.
 
 >The program is not very efficient. It may take you time to get acquainted.
+
+## Developers
+Sahil Ahuja
+[Aman Verma](https://github.com/Aman-Verma-28)
