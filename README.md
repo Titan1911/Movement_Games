@@ -24,6 +24,7 @@ You can download the game from anywhere. There are a lot of options present but 
 Laptop cameras generally do not have good configurations. So I have used [Droid Cam](https://droidcam.en.softonic.com/) to use my mobile camera as a webcam to get a better frame rate and accuracy. If you are doing this then make sure to change the argument of the `cv2.VideoCapture(0)` to `1` in line number 5.
 # Running the Code:
 After running the code, a window will open. Make a box-like structure keeping its midpoint on the part of the body to be detected(in my case: nose). 
+
 ![Screenshot (187)](https://user-images.githubusercontent.com/67066785/107855213-0628c280-6e47-11eb-92a3-411a185257fc.png)
 
 Press Enter and a small circle will appear around that part. Now if you move out of the circumference of the tracking circle, the terminal shows where are you moving. Now start playing the game and move as you want the player to move. HAPPY PLAY!
