@@ -1,5 +1,5 @@
 # Movement Games
-Ever wondered about playing Subway Surfers with your body movements! I have made a program to synchronize basic body movements with movements in games like Subway Surfers, Temple Run, and any other games like these.
+Ever wondered about playing Subway Surfers with your body movements! I have made a program to synchronize basic body movements with movements in games like Subway Surfers, Temple Run, etc.
 I have made the program in python using `OpenCV`(for video and movement detection) and `pynput`(for keyboard actions). 
 ## Prerequisites:
 Follow the following instructions to run the code on your local machine.
