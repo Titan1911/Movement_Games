@@ -31,11 +31,11 @@ Press Enter and a small circle will appear around that part. Now if you move out
 # Setting parameters:
 You can always set some parameters according to your convenience:
 
->Tracking Circle(outer circle): `tracking_circle_radius` in line number 27
+1)Tracking Circle(outer circle): `tracking_circle_radius` in line number 27
 
->Detection Circle(inner circle): `detection_circle_radius` in line number 66
+2)Detection Circle(inner circle): `detection_circle_radius` in line number 66
 
->There are 8 trackers available. `MedianFlow` works best for me as it provides good accuracy as well as efficiency but you can try all of them which works best for you.  
+3)There are 8 trackers available. `MedianFlow` works best for me as it provides good accuracy as well as efficiency but you can try all of them which works best for you.  
 ## Points to Note:
 >You can run the code on any IDE but my VSCode was giving some issue so I recommend using PyCharm.
 
@@ -47,4 +47,5 @@ You can always set some parameters according to your convenience:
 
 ## Developers
 Sahil Ahuja
+
 [Aman Verma](https://github.com/Aman-Verma-28)
