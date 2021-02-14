@@ -23,7 +23,7 @@ You can download the game from anywhere. There are a lot of options present but 
 ### Using mobile camera as webcam(Optional)
 Laptop cameras generally do not have good quality. So I have used [Droid Cam](https://droidcam.en.softonic.com/) to use my mobile camera as a webcam to get a better frame rate and accuracy. If you are doing this then make sure to change the argument of the `cv2.VideoCapture(0)` to `1` in line number 5.
 # Running the Code:
-After running the code, a window will open. Make a box-like structure keeping its midpoint on the part of the body to be detected(in my case: tip of nose). 
+After running the code, a window will open. Make a box-like structure(called bounding box) keeping its midpoint on the part of the body to be detected(in my case: tip of nose). 
 
 ![Screenshot (187)](https://user-images.githubusercontent.com/67066785/107855213-0628c280-6e47-11eb-92a3-411a185257fc.png)
 
@@ -35,7 +35,7 @@ You can always set some parameters according to your convenience:
 
 2)Detection Circle(inner circle): `detection_circle_radius` in line number 66
 
-3)There are 8 trackers available. `MedianFlow` works best for me as it provides good accuracy as well as efficiency but you can try all of them which works best for you.  
+3)There are 8 trackers available. `MedianFlow` works best for me as it provides good accuracy as well as FPS but you can try all of them, as each one has different FPS and accuracy with diffrent sizes of bounding boxes.  
 ## Points to Note:
 >You can run the code on any IDE but my VSCode was giving some issue so I recommend using PyCharm.
 
