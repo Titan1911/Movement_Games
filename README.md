@@ -4,7 +4,7 @@ I have made the program in python using `OpenCV`(for video and movement detectio
 ## Prerequisites:
 Follow the following instructions to run the code on your local machine.
 
-### OpenCV:
+### OpenCV
 Install this package using:
 
 `pip install opencv-contrib-python`
@@ -12,12 +12,12 @@ Install this package using:
 In case the code shows any error try installing:
 
 `pip install opencv-python`
-### pynput:
+### pynput
 Install this package using:
 
 `pip install pynput`
 
-### Installing the Game:
+### Installing the Game
 You can download the game from anywhere. There are a lot of options present but some of them might not work. I have used [Bluestacks](https://www.bluestacks.com/?utm_source=cdn3&utm_medium=waf) to run Subway Surfers.
 
 ### Using mobile camera as webcam(Optional)
